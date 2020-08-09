@@ -34,8 +34,6 @@ const
   AI_MAX_NUMBER_OF_TEXTURECOORDS = 0x8
   MAXLEN_AISTRING = 1024
 type
-  UncheckedArray* [T] = array[1,T]
-
   PNode* = ptr TNode
   TNode* {.pure.} = object
     name*: AIstring
